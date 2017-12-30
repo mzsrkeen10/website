@@ -5,7 +5,7 @@ draft: false
 
 AtCoder: [@mzsrkn10](http://atcoder.jp/user/mzsrkn10 "AtCoder")
 
-Codeforces: [@mzsrkn10](http://codeforces.com/profile/mzsrkn10 "Codeforces")
+Codeforces: [@nicklaw296](http://codeforces.com/profile/nicklaw296 "Codeforces")
 
 TopCoder: [@nicklaw296](https://www.topcoder.com/members/nicklaw296/ "TopCoder")
 
