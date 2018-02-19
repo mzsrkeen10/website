@@ -1,13 +1,15 @@
 baseURL = "https://nicklaw.netlify.com/"
 languageCode = "ja"
 hasCJKLanguage = true
-theme = "ananke"
+title = "むだにくろうす"
+theme = "beautifulhugo"
 
 metaDataFormat = "toml"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
 defaultContentLanguage = "ja"
-sectionPagesMenu = "main"
 paginate = 10
-googleAnalytics = ""
+googleAnalytics = "UA-114407960-1"
 enableRobotsTXT = true
 enableEmoji = true
 
@@ -17,16 +19,30 @@ enableEmoji = true
     filename = "sitemap.xml"
 
 [params]
-    title = "むだにくろうす"
     favicon = ""
-    description = "豚リブロース"
-    facebook = ""
-    twitter = "https://twitter.com/nicklaw296"
-    github = "https://github.com/mzsrkeen10"
-    instagram = ""
-    youtube = ""
-    linkedin = ""
-    # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-    background_color_class = "bg-black"
-    featured_image = "/images/gohugo-default-sample-hero-image.jpg"
-    recent_posts_number = 2
+    subtitle = "豚リブロース"
+    rss = true
+    gcse = "003964668609128965357:bcoefz0socq"
+
+[staticman]
+    api = "https://api.staticman.net/v2/entry/mzsrkeen10/website/master/comments"
+    pulls = "https://github.com/mzsrkeen10/website/pulls"
+
+[staticman.recaptcha]
+    sitekey = "6LfULUcUAAAAANb_rJTMptvFYlEeSyVP3qj2Jqoy"
+    secret = "qlBYiil8RP0p5lGpKZmU+M5RgQEy9dvDeHlvqMBRsKT5ftBP/N9ufuEn9TqmiPfG/ZWpgl8iYAUmoltxgS/lsIDEA/bpIJ1TNGBXYqdH4uKliIgb6nlsX55Pjrm0P7TEXXx9ClUrJ17YByBT0ILyZEJdLCOC7LPI42s0nJ3aZXA="
+
+[author]
+    name = "ニクロー"
+    twitter = "nicklaw296"
+    github = "mzsrkeen10"
+
+[[menu.main]]
+    name = "Post"
+    url = "post"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 2
