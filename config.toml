@@ -31,7 +31,7 @@ enableEmoji = true
 
 [params.staticman.recaptcha]
     sitekey = "6LfULUcUAAAAANb_rJTMptvFYlEeSyVP3qj2Jqoy"
-    secret = "qlBYiil8RP0p5lGpKZmU+M5RgQEy9dvDeHlvqMBRsKT5ftBP/N9ufuEn9TqmiPfG/ZWpgl8iYAUmoltxgS/lsIDEA/bpIJ1TNGBXYqdH4uKliIgb6nlsX55Pjrm0P7TEXXx9ClUrJ17YByBT0ILyZEJdLCOC7LPI42s0nJ3aZXA="
+    secret = "llLQ5De1TWFQPjE2Vd+TctSnWrXuAlGd12jezkVOOg/X+qAFqwUNuuBuVddR2f1uL8+b2KPQRnrUTrBNXLjsXC1r2axszUzhN9xD9/fWlElARV7p9QGXgurstvLfUIMR0JjbMefjOteQrqUqnq+OkD9uvLx39NjMDqpTM2A3oLw="
 
 [author]
     name = "ニクロー"
