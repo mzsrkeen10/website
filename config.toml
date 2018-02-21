@@ -21,6 +21,7 @@ enableEmoji = true
 [params]
     favicon = ""
     subtitle = "豚リブロース"
+    comments = true
     rss = true
     gcse = "003964668609128965357:bcoefz0socq"
 
