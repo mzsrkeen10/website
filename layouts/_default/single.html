@@ -16,7 +16,7 @@
       {{ if .Params.categories }}
         <div class="blog-tags">
         {{ range .Params.categories }}
-          ◆<a href="{{ $.Site.LanguagePrefix | absURL }}/tags/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+          ◆<a href="{{ $.Site.LanguagePrefix | absURL }}/categories/{{ . | urlize }}/">{{ . }}</a>&nbsp;
         {{ end }}
         </div>
       {{ end }}
