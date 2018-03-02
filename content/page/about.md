@@ -11,7 +11,7 @@ draft: false
 
 - DISCO presents ディスカバリーチャンネル コードコンテスト2017本選
 - ACM-ICPC 2017 Asia Tsukuba Regional
-- COLOCON -Colopl programming contest 2018本選
+- COLOCON -Colopl programming contest 2018-本選
 
 #### Links
 
