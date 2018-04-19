@@ -38,6 +38,9 @@ enableEmoji = true
     twitter = "nicklaw296"
     github = "mzsrkeen10"
 
+[permalinks]
+    post = "/post/:year/:month/:day/:slug"
+
 [[menu.main]]
     name = "Post"
     url = "post"
