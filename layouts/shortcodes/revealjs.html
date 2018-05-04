@@ -10,7 +10,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 <div id="slideContent">
   <link rel="stylesheet" href="{{"js/reveal.js/css/reveal.css"|relURL}}">
-  <link rel="stylesheet" href="{{"js/reveal.js/css/theme/"|relURL}}{{with .Get "theme"}}{{.|safeHTML}}{{else}}league{{end}}.css" id="theme">
+  <link rel="stylesheet" href="{{"css/reveal_theme/"|relURL}}{{with .Get "theme"}}{{.|safeHTML}}{{else}}league{{end}}.css" id="theme">
   <link rel="stylesheet" href="{{"js/reveal.js/lib/css/zenburn.css"|relURL}}">
 
   <div class="reveal">
@@ -47,13 +47,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
             { src: '{{"js/reveal.js/plugin/highlight/highlight.js"|relURL}}', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
             { src: '{{"js/reveal.js/plugin/zoom-js/zoom.js"|relURL}}', async: true, condition: function() { return !!document.body.classList; } },
             { src: '{{"js/reveal.js/plugin/notes/notes.js"|relURL}}', async: true, condition: function() { return !!document.body.classList; } },
-            { src: '{{"js/reveal.js/plugin/math-katex/math-katex.js"|relURL}}', async: true }
+            { src: '{{"js/reveal_plugin/math-katex/math-katex.js"|relURL}}', async: true }
           ]
         });
   }
   </script>
 </div>
-<li><a href="#" onclick="slideFullScreen();">See it fullscreen</a></li>
 
 <script type="text/javascript">
 var toto = document.getElementById('slideContent').innerHTML
@@ -64,10 +63,4 @@ document.addEventListener("DOMContentLoaded",function(){
       document.getElementById('slideFrame').contentWindow.initSlides() ;
     }, 2000);
 });
-function slideFullScreen() {
-  document.open();
-  document.write(toto);
-  document.close();
-  initSlides()
-}
 </script>
