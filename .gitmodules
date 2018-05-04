@@ -3,5 +3,5 @@
 	url = https://github.com/halogenica/beautifulhugo.git
 
 [submodule "static/js/reveal.js"]
-    path = static/js/reveal.js
-    url = https://github.com/hakimel/reveal.js.git
+	path = static/js/reveal.js
+	url = https://github.com/hakimel/reveal.js.git
