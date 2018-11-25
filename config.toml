@@ -50,3 +50,8 @@ enableEmoji = true
     name = "About"
     url = "page/about/"
     weight = 2
+
+[[menu.main]]
+    name = "Works"
+    url = "page/works/"
+    weight = 3
